@@ -1,0 +1,95 @@
+.navBarMagazines {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f5f6f7;
+  border-bottom: 1px solid #f5f6f7;
+}
+.navBarMagazines a {
+  font-weight: 700;
+}
+/* icons */
+.g1-icon {
+  color: #c3170c;
+}
+.oGlobo-icon {
+  color: #1e4b9b;
+}
+.valor-icon {
+  color: #006766;
+}
+.ge-icon {
+  color: #07aa47;
+}
+.cartola-icon {
+  color: #e3662b;
+}
+.gplay-icon {
+  color: #fb0735;
+}
+.dropz-icon {
+  color: #ff75bb;
+}
+.gshow-icon {
+  color: #ec7d00;
+}
+.quem-icon {
+  color: #323333;
+}
+.receit-icon {
+  color: #a81d83;
+}
+.tech-icon {
+  color: #666666;
+  display: none;
+}
+.videos-icon {
+  color: #0769de;
+  display: none;
+}
+@media (max-width: 700px) {
+  .navBarMagazines {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+  }
+  .oGlobo-icon {
+    display: none;
+  }
+  .valor-icon {
+    display: none;
+  }
+  .cartola-icon {
+    display: none;
+  }
+  .gplay-icon {
+    display: none;
+  }
+  .quem-icon {
+    display: none;
+  }
+  .receit-icon {
+    display: none;
+  }
+  .dropz-icon {
+    display: none;
+  }
+  .tech-icon {
+    display: initial;
+  }
+  .videos-icon {
+    display: initial;
+  }
+}

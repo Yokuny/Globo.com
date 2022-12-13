@@ -1,0 +1,13 @@
+.gridScreen {
+  display: grid;
+  grid-template-columns: 1fr 1250px 1fr;
+  grid-template-areas: ". allContent .";
+}
+@media (max-width: 700px) {
+  .gridScreen {
+    grid-template-columns: 1fr;
+  }
+}
+.allContent {
+  grid-area: allContent;
+}

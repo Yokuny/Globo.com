@@ -1,0 +1,41 @@
+h3 {
+  color: #2f3134;
+  font-weight: 700;
+  size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+}
+h4 {
+  color: #c4170c;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #16ae54;
+}
+h6 {
+  color: #ec8006;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.5px;
+}
+p {
+  color: #2f3134;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+@media (max-width: 700px) {
+  .desktop {
+    display: none !important;
+  }
+}
+@media (min-width: 700px) {
+  .mobile {
+    display: none;
+  }
+}
